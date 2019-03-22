@@ -8,11 +8,15 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
     Button addBtn, readBtn, editBtn, deleteBtn;
     EditText idTxt, nameTxt;
+    DBHelper dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //DB_CODE
+        dbHelper = new DBHelper(this);
 
         addBtn = findViewById(R.id.btnAdd);
         readBtn = findViewById(R.id.btnRead);
