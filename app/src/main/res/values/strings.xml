@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SQLite in Android</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="add">ADD</string>
+    <string name="read">READ</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+</resources>
