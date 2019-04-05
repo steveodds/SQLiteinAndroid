@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 if (crs.moveToFirst()){
                     do{
                         nameTxt.setText(crs.getString(0));
-                    }while(crs.moveToNext());
+                    }
+                    while(crs.moveToNext());
                 }
                 crs.close();
             }
