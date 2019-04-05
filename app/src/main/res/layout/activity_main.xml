@@ -67,7 +67,13 @@
         android:textSize="22sp"
         android:layout_above="@+id/btnRead"/>
 
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/serverBTN"
+        android:text="@string/add_to_server"
+        android:textSize="22sp"
+        android:layout_above="@+id/btnAdd"/>
 
 
 

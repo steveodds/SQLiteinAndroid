@@ -6,4 +6,5 @@
     <string name="read">READ</string>
     <string name="edit">EDIT</string>
     <string name="delete">DELETE</string>
+    <string name="add_to_server">Add to Server</string>
 </resources>
